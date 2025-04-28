@@ -1,74 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task Management System</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #24292e;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            color: #0366d6;
-            margin-top: 24px;
-            margin-bottom: 16px;
-        }
-        h1 {
-            font-size: 2em;
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 0.3em;
-        }
-        h2 {
-            font-size: 1.5em;
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 0.3em;
-        }
-        code {
-            background-color: rgba(27, 31, 35, 0.05);
-            border-radius: 3px;
-            padding: 0.2em 0.4em;
-            font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
-        }
-        pre {
-            background-color: #f6f8fa;
-            border-radius: 3px;
-            padding: 16px;
-            overflow: auto;
-        }
-        .badge {
-            display: inline-block;
-            padding: 3px 6px;
-            font-size: 14px;
-            font-weight: 600;
-            line-height: 1;
-            color: #fff;
-            background-color: #0366d6;
-            border-radius: 2em;
-            margin-right: 5px;
-        }
-        ul, ol {
-            padding-left: 2em;
-        }
-        a {
-            color: #0366d6;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        img {
-            max-width: 100%;
-            box-sizing: content-box;
-            background-color: #fff;
-        }
-    </style>
-</head>
-<body>
     <h1>Task Management System</h1>
 
     <p>
@@ -147,29 +76,6 @@ npm install</code></pre>
         <li>SQLite</li>
     </ul>
 
-    <h2>File Structure</h2>
-    <pre><code>task-management-system/
-├── app/
-│   ├── Models/
-│   │   └── Task.php
-│   └── Http/
-│       └── Requests/
-│           └── TaskRequest.php
-├── resources/
-│   └── views/
-│       ├── layouts/
-│       │   └── app.blade.php
-│       ├── create.blade.php
-│       ├── edit.blade.php
-│       ├── form.blade.php
-│       ├── index.blade.php
-│       └── show.blade.php
-├── routes/
-│   └── web.php
-└── database/
-    ├── migrations/
-    └── seeders/</code></pre>
-
     <h2>Contributing</h2>
     <p>Contributions are welcome! Please follow these steps:</p>
     <ol>
@@ -179,5 +85,4 @@ npm install</code></pre>
         <li>Push to the branch (<code>git push origin feature/AmazingFeature</code>)</li>
         <li>Open a Pull Request</li>
     </ol>
-</body>
-</html>
+

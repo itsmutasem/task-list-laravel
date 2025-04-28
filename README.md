@@ -1,7 +1,6 @@
 Task Management System
-Laravel
-TailwindCSS
-AlpineJS
+
+Laravel | TailwindCSS | AlpineJS
 
 A simple yet powerful Task Management System built with Laravel, Tailwind CSS, and Alpine.js.
 
@@ -22,6 +21,7 @@ Features:
 ✅ Clean, modern UI
 
 Installation
+
 Clone the repository:
 ```
 git clone https://github.com/yourusername/task-management-system.git

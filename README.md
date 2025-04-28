@@ -5,7 +5,8 @@ AlpineJS
 
 A simple yet powerful Task Management System built with Laravel, Tailwind CSS, and Alpine.js.
 
-Features
+Features:
+
 ✅ Create, Read, Update, and Delete (CRUD) tasks
 
 ✅ Mark tasks as complete/incomplete

@@ -7,11 +7,17 @@ A simple yet powerful Task Management System built with Laravel, Tailwind CSS, a
 
 Features
 ✅ Create, Read, Update, and Delete (CRUD) tasks
+
 ✅ Mark tasks as complete/incomplete
+
 ✅ Responsive design
+
 ✅ Form validation
+
 ✅ Success notifications
+
 ✅ Paginated task listing
+
 ✅ Clean, modern UI
 
 Installation
